@@ -1,9 +1,5 @@
-name : My First Workflow
-
-on:
-  push: 
-    branches:
-        - main
+name: Manual Workflow
+on: workflow_dispatch
 
 jobs:
    build: 
